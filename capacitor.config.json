@@ -1,0 +1,14 @@
+{
+  "appId": "com.example.remotedeployer",
+  "appName": "remote-deployer",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "http",
+    "allowNavigation": [
+      "82.156.64.69",
+      "82.156.64.69:8083",
+      "ws://82.156.64.69:8083/*"
+    ],
+    "cleartext": true
+  }
+}
